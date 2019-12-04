@@ -9,6 +9,14 @@ Also contains CSS styling using [Material-UI](https://github.com/mui-org/materia
 `yarn start` will start the Electron app and the React app at the same time.  
 `yarn build` will build the React app and package it along the Electron app.
 
+## DevTool React
+
+In the console tab insert the following code and hit enter. It will 
+
+```js
+require('electron-react-devtools').install()
+```
+
 ## Build 
 
 ### Linux
