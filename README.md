@@ -2,7 +2,7 @@
 
 Bolierplate code for building multi-platform, production ready desktop apps using [Electron](https://electronjs.org/), [React](https://reactjs.irg), [React-Router](https://reacttraining.com/react-router/web/guides/quick-start) and [Parcel](https://parceljs.org/).
 
-Also contains CSS styling using [Semantic-UI-CSS](https://github.com/Semantic-Org/Semantic-UI-CSS) and [React-Transition-Group](https://reactcommunity.org/react-transition-group/) for animations.
+Also contains CSS styling using [Material-UI](https://github.com/mui-org/material-ui) and [React-Transition-Group](https://reactcommunity.org/react-transition-group/) for animations.
 
 ## Scripts
 

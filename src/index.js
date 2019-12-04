@@ -1,11 +1,13 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import { BrowserRouter } from 'react-router-dom'
-import "semantic-ui-css/semantic.min.css";
 import App from "./App";
+import CssBaseline from '@material-ui/core/CssBaseline';
 
 ReactDOM.render((
     <BrowserRouter>
-      <App />
+      <CssBaseline>
+        <App />
+      </CssBaseline>
     </BrowserRouter>
   ), document.getElementById('root'))

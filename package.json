@@ -1,7 +1,7 @@
 {
   "name": "electron-react-parcel",
   "version": "1.0.0",
-  "description": "Electron app build using ReactJS and Parcel web application bundler",
+  "description": "Electron app build using ReactJS and Parcel",
   "main": "src/electron.js",
   "scripts": {
     "react-start": "parcel -p 3000 index.html --out-dir build",
@@ -33,12 +33,14 @@
   "author": "Gillmann Adrien <adrien.gillmann@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "@material-ui/core": "^4.7.1",
+    "@material-ui/icons": "^4.5.1",
     "electron-is-dev": "1.0.1",
-    "react": "16.7.0",
-    "react-dom": "16.7.0",
+    "react": "16.8.0",
+    "react-dom": "16.8.0",
     "react-router-dom": "^5.1.2",
     "react-transition-group": "^4.3.0",
-    "semantic-ui-css": "2.4.1"
+    "semantic-ui-css": "^2.4.1"
   },
   "build": {
     "appId": "com.boskysoft",
