@@ -1,5 +1,5 @@
 import React from 'react';
-import PropTypes from 'prop-types';
+import ReactRouterPropTypes from 'react-router-prop-types';
 import { withRouter, Switch, Route } from 'react-router-dom';
 import { TransitionGroup, CSSTransition } from 'react-transition-group';
 import Layout from './components/Layout';
@@ -24,6 +24,6 @@ const App = ({ location }) => {
 };
 
 App.propTypes = {
-  location: PropTypes.string.isRequired,
+  location: ReactRouterPropTypes.location.isRequired,
 };
 export default withRouter(App);
