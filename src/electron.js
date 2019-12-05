@@ -1,10 +1,9 @@
 const electron = require('electron');
+const path = require('path');
+const isDev = require('electron-is-dev');
 
 const { app } = electron;
 const { BrowserWindow } = electron;
-
-const path = require('path');
-const isDev = require('electron-is-dev');
 
 let mainWindow;
 
